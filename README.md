@@ -4,11 +4,11 @@
 
 - [1. Increase ratio](#1-ol_classifier_ratio)
 - [2. Baseline](#2-baseline)
-- [3. NET](#3-NoET-method)
-- [4. Borderline ET.](#4-borderline-optimization)
-- [5. Self-adaptive Tech.](#5-self-adaptive-optimization)
-- [6. Ensemble Tech.](#6-ensemble-optimization)
-- [7. O2OS-entirely](#7-entirety-optimization)
+- [3. NET](#3-net-method)
+- [4. Borderline ET](#4-borderline-et)
+- [5. Unbiase sample ET](#5-unbiased-sample-et)
+- [6. Multi-voting ET](#6-multi-voting-et)
+- [7. HPETC](#7-entirety-optimization)
 - [8.1 Supplements-Featrues](#statistical-featrues)
 - [8.2 Supplements-Models](#model-parameters)
 
@@ -24,7 +24,7 @@ The **modelpath** is the location where well-trained models are stored. The mode
 
 The original traffic classification method. Modify the data reading part in `Classifier.py` and run the code. The models are saved in the "models" folder.
 
-## 3. NOP-O2OS Method
+## 3. NET Method
 
 Initial classification performance of O2OS.
 
@@ -32,7 +32,7 @@ Initial classification performance of O2OS.
 
 - Model Testing: Modify **ensembleout = 0** in `OL_Classifier_ratio.py`. Select the test dataset paths for NOR and the model path, and modify the values of `lowbound` and `uppbound`.
 
-## 4. Borderline Optimization
+## 4. Borderline ET
 
 Generate samples using the borderline method and modify the distribution of the test dataset to bias the classifier.
 
@@ -40,7 +40,7 @@ Generate samples using the borderline method and modify the distribution of the 
 
 - Model Testing: Modify **ensembleout = 0** in `OL_Classifier_ratio.py`. Select the test dataset paths for NOR and the model path, and modify the values of `lowbound` and `uppbound`.
 
-## 5. Self-adaptive Optimization
+## 5. Unbiased sample ET
 
 Adopting the Adaboost concept, the training samples for the second-stage offline classification are not normal samples, but rather TOR samples and the misclassified samples from the first-stage online identification.
 
@@ -52,7 +52,7 @@ Adopting the Adaboost concept, the training samples for the second-stage offline
 
 - Model Testing: Modify **ensembleout = 0** in `OL_Classifier_ratio.py`. Select the test dataset paths for NOR and the model path, and modify the values of `lowbound` and `uppbound`.
 
-## 6. Ensemble Optimization
+## 6. Multi-voting ET
 
 Adopting the ensemble learning concept to integrate the results from different classifiers.
 
