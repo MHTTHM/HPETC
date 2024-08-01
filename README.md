@@ -4,8 +4,8 @@
 
 - [1. Increase ratio](#1-ol_classifier_ratio)
 - [2. Baseline](#2-baseline)
-- [3. Nop-O2OS](#3-nop-o2os-method)
-- [4. Borderline Tech.](#4-borderline-optimization)
+- [3. NET](#3-NoET-method)
+- [4. Borderline ET.](#4-borderline-optimization)
 - [5. Self-adaptive Tech.](#5-self-adaptive-optimization)
 - [6. Ensemble Tech.](#6-ensemble-optimization)
 - [7. O2OS-entirely](#7-entirety-optimization)
