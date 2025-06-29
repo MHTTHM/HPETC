@@ -1,3 +1,12 @@
+# ⚠️ Important Notice: Repository in Recovery Mode  
+
+**My Samsung hard drive encountered the "0E bug," causing all changes in the main code repository to be lost.**  
+This repository currently contains only partial code and serves as a **backup only**.  
+I will gradually restore the original code in the future.  
+
+**代码丢失**
+令人遗憾的是，我的三星硬盘遭遇了0e bug，导致我在主代码仓库的修改全部丢失，本仓库只包含部分代码，因此本仓库暂时只做备份之用。日后会逐渐修复原代码。
+
 # Traffic Classification Code - O2OS
 
 ## 0. Table of Contents & Links
